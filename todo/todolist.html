@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <!-- tw cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="h-screen bg-violet-500 flex justify-center items-center">
+
+    <div class="text-center bg-white w-[350px] h-[700px] rounded-[20px]">
+        <h1 class="text-4xl font-bold mt-6 text-slate-900/95">Todo List</h1>
+        <h3 class="text-2xl font-bold mt-3 text-slate-800/80">Your Tasks</h3>
+
+        <form action="">
+            <div class="border border-gray-400 w-[80%] h-[70px] rounded-[5px] flex ml-[34px] mt-3">
+
+                <div class="ml-3 w-5 mt-5"><i class="fa-regular fa-square"></i>
+                </div>
+
+                <div class="w-55 ml-[3.3px] mt-1">
+                    <div class="mt-2 mr-4 font-semibold text-slate-800">
+                        Finish HTML Project
+                    </div>
+
+                    <div class="font-medium text-xs text-gray-500 w-40 mr-6">
+                        <span>Nov 20, 2025</span>
+                        <span><i class="fa-regular fa-circle-dot ml-3 mt-2"></i>Work</span>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-pen-to-square ml-6 mb-4 mt-2"></i> <i
+                        class="fa-regular fa-trash-can ml-5 mt-[1px]"></i>
+                </div>
+            </div>
+
+
+            <div class="border border-gray-400 w-[80%] h-[70px] rounded-[5px] flex ml-[34px] mt-3">
+
+                <div class="ml-3 w-5 mt-5"><i class="fa-regular fa-square"></i>
+                </div>
+
+                <div class="w-55 ml-[3.3px] mt-1">
+                    <div class="mt-1 mr-7 font-semibold text-slate-800">
+                        Finish CSS Project
+                    </div>
+
+                    <div class="font-medium text-xs text-gray-500 w-40 mr-6">
+                        <span>Nov 27, 2025</span>
+                        <span><i class="fa-regular fa-circle-dot ml-3 mt-2"></i>Work</span>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-pen-to-square ml-6 mb-4 mt-2"></i> <i
+                        class="fa-regular fa-trash-can ml-5 mt-[1px]"></i>
+                </div>
+            </div>
+
+
+            <div class="border border-gray-400 w-[80%] h-[70px] rounded-[5px] flex ml-[34px] mt-3">
+
+                <div class="ml-3 w-5 mt-5"><i class="fa-regular fa-square"></i>
+                </div>
+
+                <div class="w-55 ml-[3.3px] mt-1">
+                    <div class="mt-1 mr-7 font-semibold text-slate-800">
+                        Finish BS Project
+                    </div>
+
+                    <div class="font-medium text-xs text-gray-500 w-40 mr-5">
+                        <span>Nov 29, 2025</span>
+                        <span><i class="fa-regular fa-circle-dot ml-3 mt-2"></i>Work</span>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-pen-to-square ml-6 mb-4 mt-2"></i> <i
+                        class="fa-regular fa-trash-can ml-5 mt-[1px]"></i>
+                </div>
+            </div>
+
+
+
+            <h3 class="text-2xl font-bold mt-4 text-slate-800/80">Completed Tasks</h3>
+
+            <div class="border border-gray-400 w-[80%] h-[50px] rounded-[5px] flex ml-[34px] mt-3">
+                <div class="ml-3 w-5 mt-3"><i class="fa-regular fa-square-check"></i>
+                </div>
+
+                <div class="w-55 ml-[3.3px] mt-1">
+                    <div class="mt-2 mr-5 font-semibold text-slate-800">
+                        Finish Tailwind Project
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="border border-gray-400 w-[80%] h-[50px] rounded-[5px] flex ml-[34px] mt-3">
+                <div class="ml-3 w-5 mt-3"><i class="fa-regular fa-square-check"></i>
+                </div>
+
+                <div class="w-55 ml-[3.3px] mt-1">
+                    <div class="mt-2 mr-21 font-semibold text-slate-800">
+                        Read a Book
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="border border-gray-400 w-[80%] h-[50px] rounded-[5px] flex ml-[34px] mt-3">
+                <div class="ml-3 w-5 mt-3"><i class="fa-regular fa-square-check"></i>
+                </div>
+
+                <div class="w-55 ml-[3.3px] mt-1">
+                    <div class="mt-2 mr-18 font-semibold text-slate-800">
+                        Buy Groceries
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="font-semibold text-base">Go to Todo Add
+                <button type="submit" formaction="todoadd.html"
+                    class="bg-violet-600 hover:bg-violet-700 text-white w-16 h-16 rounded-full text-center text-4xl mt-5 mr-5 ml-1"><i
+                        class="fa-solid fa-plus"></i></button>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

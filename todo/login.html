@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Login</title>
+    <!-- tw cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="h-screen bg-violet-500 flex justify-center items-center">
+
+    <div class="text-center bg-white w-[350px] h-[600px] rounded-[20px]">
+        <h1 class="text-4xl font-bold mt-16 text-slate-900/95">Todo Login</h1>
+        <h3 class="text-2xl font-bold mt-8 text-slate-800/80">Welcome Back!</h3>
+
+        <form action="">
+            <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-12 ml-[44px]">
+                <span><i class="fa-regular fa-envelope text-[17px] text-gray-500"></i>
+                    <input type="email" class="mt-2 w-[210px]" placeholder="Email" required></span>
+            </div>
+
+            <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-5 ml-[44px]">
+                <span><i class="fa-solid fa-lock text-[18px] text-gray-500"></i>
+                    <input type="password" class="mt-2 w-[210px]" placeholder="Password" minlength="6" required></span>
+            </div>
+
+
+            <div class="flex justify-between mx-10 mt-1">
+                <div class="flex justify-center items-center">
+                    <span><input type="checkbox" class="mx-2 w-[15px] h-[15px] mt-5" name="" id=""></span><span
+                        class="mt-[13px] text-gray-900 text-[13px]"><label for="">Remember
+                            me</label></span>
+                </div>
+
+                <div class="mt-[14px]">
+                    <a href="#" class="text-xs text-gray-900 underline">Forgot password?</a>
+                </div>
+            </div>
+
+            <button type="submit" formaction="todolist.html"
+                class="w-[75%] h-[40px] border border-gray-400 rounded-[20px] mt-10 bg-indigo-600 text-white text-lg font-bold ml-[7px] pt-1 pb-1">
+                Login</button>
+
+
+            <div class="mt-10">
+                <p class="text-gray-900 text-base">Don't have an account? <a href="./register.html"
+                        class="text-gray-900 text-lg font-semibold underline ml-1">Register</a></p>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>

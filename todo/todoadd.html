@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Add</title>
+    <!-- tw cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="h-screen bg-violet-500 flex justify-center items-center">
+
+    <div class="text-center bg-white w-[350px] h-[680px] rounded-[20px]">
+        <h1 class="text-4xl font-bold mt-6 text-slate-900/95">Todo Add</h1>
+        <h3 class="text-2xl font-bold mt-5 text-slate-800/80">Add New Task</h3>
+
+        <form action="">
+            <div class="mt-10">
+                <div class="mr-[170px] text-md font-semibold text-slate-900/90">
+                    <label for="" class="text-slate-900/90">Add Task <i
+                            class="fa-solid fa-pencil text-slate-900/90"></i></label>
+                </div>
+
+                <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-[1px] ml-[44px]">
+                    <input type="text" class="mt-2 w-[250px]" placeholder="Enter Task Here" required>
+                </div>
+            </div>
+
+
+
+            <div class="mt-5">
+                <div class="mr-[140px] text-md font-semibold text-slate-900/90">
+                    <label for="" class="text-slate-900/90">Finish Before <i class="fa-regular fa-calendar"></i></label>
+                </div>
+
+                <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-[1px] ml-[44px]">
+                    <input type="date" class="mt-2 w-[250px]" required>
+                </div>
+            </div>
+
+
+            <div class="mt-5">
+                <div class="mr-[110px] text-md font-semibold text-slate-900/90">
+                    <label for="" class="text-slate-900/90">Choose Category <i class="fa-solid fa-list"></i></label>
+                </div>
+
+                <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-[1px] ml-[44px]">
+                    <select name="" id="" class="mt-2 w-[250px]" required>
+                        <option value="" selected>Select Category</option>
+                        <option value="personal">Personal</option>
+                        <option value="shopping">Shopping</option>
+                        <option value="work">Work</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+            <div class="mt-5">
+                <div class="mr-[135px] text-md font-semibold text-slate-900/90">
+                    <label for="" class="text-slate-900/90">Priority Level <i class="fa-solid fa-sort"></i></label>
+                </div>
+
+                <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-[1px] ml-[44px]">
+                    <select name="" id="" class="mt-2 w-[250px]" required>
+                        <option value="" selected>Select Priority</option>
+                        <option value="low">Low</option>
+                        <option value="medium">Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+            </div>
+
+
+
+            <div class="mt-5">
+                <div class="mr-[163px] text-md font-semibold text-slate-900/90">
+                    <label for="" class="text-slate-900/90">Reminder <i class="fa-regular fa-clock"></i></label>
+                </div>
+
+                <div class="border border-gray-400 w-[75%] h-[40px] rounded-[5px] mt-[1px] ml-[44px]">
+                    <select name="" id="" class="mt-2 w-[250px]" required>
+                        <option value="" selected>Select Reminder</option>
+                        <option value="no reminder">No Reminder</option>
+                        <option value="5 mins before">5 mins before</option>
+                        <option value="10 mins before">10 mins before</option>
+                        <option value="30 mins before">30 mins before</option>
+                        <option value="1 hour before">1 hour before</option>
+                        <option value="1 day before">1 day before</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="font-semibold text-base">Go to Todo List
+                <button type="submit" formaction="todolist.html"
+                    class="bg-violet-600 hover:bg-violet-700 text-white w-16 h-16 rounded-full text-center text-4xl mt-5 mr-5 ml-1"><i
+                        class="fa-solid fa-plus"></i></button>
+            </div>
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
